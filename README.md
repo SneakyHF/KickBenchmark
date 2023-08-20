@@ -1,4 +1,4 @@
-# Kick benchmark
+# Kick Benchmark
 A tool that calculates the speed of two different chatrooms with uniqueness in mind. Good to see if a channel is heavily botted.
 
 An example, but for best results use two channels with the same viewership and same chat mode.
