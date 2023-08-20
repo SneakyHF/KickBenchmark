@@ -54,7 +54,7 @@ function updateAverage(currentTime, userMessages, averageUpdateInterval, average
   }
 
   const averageUniqueMessages = totalUniqueMessages / (MESSAGE_TIME_WINDOW / (60 * 1000));
-  averageDisplay.textContent = `Unique Messages ${averageUniqueMessages.toFixed(2)} /m`;
+  averageDisplay.textContent = `Unique Messages ${averageUniqueMessages} / m`;
 }
 
 function connectAndSubscribe(container, channels, userMessages, averageUpdateInterval, averageDisplay) {
